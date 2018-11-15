@@ -1,15 +1,15 @@
+.main {
+  width: 1024px;
+  margin: 0 auto;
+}
 .topItem {
   display: flex;
 }
 .imageTopItem {
   width: 340px;
   height: 150px;
-}
-.bodyItem {
-  /* display: flex; */
-  background-color: white;
-  width: 33%;
-  margin: 10px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 .body {
   background-color: #edeaea;
@@ -17,8 +17,30 @@
   flex-direction: column;
   -moz-column-count: 2;
 }
+.bodyItem {
+  display: flex;
+  background-color: white;
+  width: 33%;
+  margin: 10px;
+}
+.bodyItemTitle {
+  font-size: 14px;
+}
+.bodyItemDes {
+  font-size: 11px;
+}
+.bodyItemPrice {
+  font-size: 12px;
+}
 .imageBodyItem {
-  float: right;
   width: 90px;
   height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.bodyImageDiv {
+  margin: auto;
+}
+.cartList {
+  list-style: none;
 }
