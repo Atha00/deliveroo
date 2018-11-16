@@ -9,8 +9,7 @@ class Home extends React.Component {
   state = {
     menuHead: {},
     menuBody: {},
-    cart: [],
-    toto: 0
+    cart: []
   };
   // 1)
   render() {
@@ -87,16 +86,6 @@ class Home extends React.Component {
                 console.log("newCart", newCart);
                 this.setState({
                   cart: newCart
-                });
-              }}
-              subTotal={() => {
-                let tata = 0;
-                const newCart = [...this.state.cart];
-                for (let m = 0; m < newCart.length; m++) {
-                  tata = tata + newCart[m].price * newCart[m].quantity;
-                }
-                this.setState({
-                  toto: tata
                 });
               }}
             />

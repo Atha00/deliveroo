@@ -41,6 +41,13 @@
 .bodyImageDiv {
   margin: auto;
 }
+
+.fullCart {
+  width: 33%;
+}
 .cartList {
   list-style: none;
+}
+.validButton {
+  width: 100%;
 }
